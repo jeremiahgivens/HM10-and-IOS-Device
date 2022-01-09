@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This is needed to send location to the robot.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This is needed to send location to the HM10</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app uses bluetooth to send position for robotics projects.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app uses bluetooth to send position for robotics projects.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>location</string>
+	</array>
+</dict>
+</plist>
